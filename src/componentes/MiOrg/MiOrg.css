@@ -22,3 +22,17 @@
     right: 30%;
     cursor: pointer;
 }
+
+@media (max-width: 1250px) {
+    .orgSection {
+        flex-wrap: wrap;
+    }
+    .orgSection .title{
+        margin-bottom: 10px;
+    }
+    .orgSection img {
+        position: static;
+        cursor: pointer;
+    }
+
+}
